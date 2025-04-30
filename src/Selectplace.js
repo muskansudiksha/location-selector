@@ -71,7 +71,7 @@ const Selectplace = (place) => {
                 </select>
             </div>
             {selectedCity && 
-            <h2>You selected {selectedCity} {selectedState},{selectedCountry}</h2>}
+            <h2>You selected {selectedCity}, {selectedState}, {selectedCountry}</h2>}
         </div>
     )
 }
